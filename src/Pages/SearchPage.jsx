@@ -26,7 +26,7 @@ function SearchPage() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      <div className="cards" style={{ marginTop: "20px" }}>
+      <div className="cards media" style={{ marginTop: "20px" }}>
         {filteredProducts.map((item) => (
           <div className="card" key={item.id}>
             <Link to={`/product/${item.id}`}>{item.title}</Link>

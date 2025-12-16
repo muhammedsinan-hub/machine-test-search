@@ -108,4 +108,32 @@ button:hover {
   font-style: italic;
 }
 
+@media (max-width: 576px) {
+
+  .cards {
+    margin-left: 0;              
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 48%;             
+  }
+
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+
+  .cards {
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 32%; 
+  }
+
+}
+
+
+
 
